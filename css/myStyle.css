@@ -1,0 +1,68 @@
+* {
+    margin: 0 auto;
+}
+
+body {
+    width: 100vh;
+    height: 100vh;
+    font-family: 'Nova Cut', cursive;
+    background-color: rgb(255, 253, 238);
+
+}
+
+#myHeading {
+    position: relative;
+    left: 275px;
+}
+
+.list {
+    border-radius: 30px;
+    background-color: rgba(73, 55, 55, 0.616);
+    width: 425px;
+    height: 500px;
+    position: relative;
+}
+
+input {
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    border: none;
+    border-radius: 15px ;
+    height: 35px;
+    background-color: rgb(73, 55, 55);
+    color: white;
+    font-size: 20px;
+    font-family: 'Nova Cut', cursive;
+}
+
+button {
+    position: absolute;
+    top: 100px;
+    left: 110px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    background-color: rgb(73, 55, 55);
+    color: white;
+    cursor: pointer;
+    font-family: 'Nova Cut', cursive;
+}
+
+.removeItem {
+    position: absolute;
+    top: 100px;
+    left: 200px;
+}
+
+ul {
+position: absolute;
+top: 160px;
+left: 80px;
+  list-style: none;
+  font-size: 20px;
+}
+
+button:hover {
+    transform: translateY(-3px);
+}
